@@ -1,0 +1,6 @@
+comparison.v
+control_logic.v
+read_write_control.v
+timer_8_bit.v
+timer_8_bit_test.v
+timer_counter.v
