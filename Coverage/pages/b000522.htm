@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>Questa Coverage Report</title>
+  <!-- original name: _work.timer_8_bit_test_countup_reset_load_countdw_pclk2ContentFrame2.htm -->
+  <link rel="StyleSheet" media="print"  href="../css/ucdb2htmlP.css"/>
+  <link rel="StyleSheet" media="screen" href="../css/ucdb2html.css"/>
+  <link rel="StyleSheet" media="screen" href="../css/ucdb2html_newlook.css"/>
+  <script type="text/javascript" src="../scripts/jquery.js"></script>
+  <script type="text/javascript" src="../scripts/showhide.js"></script>
+  
+</head>
+<body id="ucdb2html_detail" onload="showLast()">
+  <h1><span class="strip">Questa</span> Branch Coverage Report</h1>
+  <h3>Scope: /<a href="z000388.htm">work.timer_8_bit_test</a>/<a href="z000522.htm">countup_reset_load_countdw_pclk2</a></h3>
+  <!-- use script block so buttons vanish when JavaScript is disabled -->
+  <script type="text/javascript">
+  <!--
+  document.write(
+    '<table class="buttons" cellspacing="2" cellpadding="2"><tr>' +
+       '<td id="showAll" width="100" onclick="showAll()" class="button_on" ' +
+           'title="Display all coverage scopes and bins.">Show All</td>' +
+       '<td id="showCov" width="100" onclick="showCov()" class="button_off" ' +
+           'title="Display only covered scopes and bins.">Show Covered</td>' +
+       '<td id="showMis" width="100" onclick="showMis()" class="button_off" ' +
+           'title="Display only uncovered scopes and bins.">Show Missing</td>' +
+    '</tr></table>');
+  //-->
+  </script>
+  <div><a name="cvg523"/><hr/><table>
+  <tr l="936" lnk="__HDL_srcfile_1.htm#936" z="		APB_READ(2'b10, read_data);" c="Y" p="50.00"/><tr/>
+  <tr cr="c" t="I" l="936" lnk="__HDL_srcfile_1.htm#936" z="		APB_READ(2'b10, read_data);" h="1" c="g"/>
+  <tr cr="m" t="E" l="938" lnk="__HDL_srcfile_1.htm#938" z="		if (read_data == 8'h00) begin" h="0" c="r"/>
+  </table>
+  </div><div><a name="cvg524"/><hr/><table>
+  <tr l="944" lnk="__HDL_srcfile_1.htm#944" z="		written_value = $urandom_range(0, 254);" c="Y" p="50.00"/><tr/>
+  <tr cr="c" t="I" l="944" lnk="__HDL_srcfile_1.htm#944" z="		written_value = $urandom_range(0, 254);" h="1" c="g"/>
+  <tr cr="m" t="E" l="946" lnk="__HDL_srcfile_1.htm#946" z="		wait_cycles = written_value;" h="0" c="r"/>
+  </table>
+  </div><div><a name="cvg525"/><hr/><table>
+  <tr l="952" lnk="__HDL_srcfile_1.htm#952" z="		repeat (wait_cycles + 5) @ (posedge CLK_in[0]);" c="Y" p="50.00"/><tr/>
+  <tr cr="c" t="I" l="952" lnk="__HDL_srcfile_1.htm#952" z="		repeat (wait_cycles + 5) @ (posedge CLK_in[0]);" h="1" c="g"/>
+  <tr cr="m" t="E" l="954" lnk="__HDL_srcfile_1.htm#954" z="		APB_READ(2'b10, read_data);" h="0" c="r"/>
+  </table>
+  </div><div><a name="cvg526"/><hr/><table>
+  <tr l="970" lnk="__HDL_srcfile_1.htm#970" z="	begin" c="Y" p="50.00"/><tr/>
+  <tr cr="c" t="I" l="970" lnk="__HDL_srcfile_1.htm#970" z="	begin" h="1" c="g"/>
+  <tr cr="m" t="E" l="972" lnk="__HDL_srcfile_1.htm#972" z="		$display("=====  Task 19 =====");" h="0" c="r"/>
+  </table>
+  </div><script type="text/javascript" src="../scripts/buildbranchpage.js"></script>
+  <!-- make sure jumps to last few line nos work -->
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  
+</body>
+</html>
